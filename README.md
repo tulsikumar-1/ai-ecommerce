@@ -25,13 +25,20 @@ python generate_products.py
 export OPENROUTER_API_KEY="your-api-key"
 ```
 
-4. Run the app:
+## Usage
+
+Run the app:
 ```bash
 streamlit run app.py
 ```
 
+## Live Demo
+You can try the app live here: [Live Demo](https://ai-ecommerce-tulsi-kumar.streamlit.app)
+
+
+
 ## AI Feature
-Smart Product Search using OpenRouter and Deepseek models to interpret queries.
+Option A: Smart Product Search using OpenRouter and Deepseek models to interpret queries.
 
 # Bonus Blockchain integration idea
 

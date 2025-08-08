@@ -40,10 +40,9 @@ You can try the app live here: [Live Demo](https://ai-ecommerce-tulsi-kumar.stre
 ## AI Feature
 Option A: Smart Product Search using OpenRouter and Deepseek models to interpret queries.
 
-# Bonus Blockchain integration idea
+## Bonus Blockchain integration idea
+This AI-powered search can be integrated with blockchain features such as:
 
-    This AI-powered search can be integrated with blockchain features such as:
-
-    - **Token-gated pricing:** Only allow users holding certain tokens to see discounted prices.
-    - **On-chain user preferences:** Store user search preferences and product likes on-chain for personalization.
-    - **Loyalty smart contracts:** Reward users with tokens for purchases or searches, encouraging engagement.
+- **Token-gated pricing:** Only allow users holding certain tokens to see discounted prices.
+- **On-chain user preferences:** Store user search preferences and product likes on-chain for personalization.
+- **Loyalty smart contracts:** Reward users with tokens for purchases or searches, encouraging engagement.

@@ -1,0 +1,72 @@
+[
+    {
+        "name": "RunPro Running Shoes",
+        "price": 95,
+        "category": "Footwear",
+        "description": "Lightweight running shoes with excellent grip",
+        "rating": 4.5
+    },
+    {
+        "name": "TrailBlaze Hiking Boots",
+        "price": 120,
+        "category": "Footwear",
+        "description": "Durable boots for hiking and trekking",
+        "rating": 4.7
+    },
+    {
+        "name": "Comfy Cotton T-Shirt",
+        "price": 25,
+        "category": "Apparel",
+        "description": "Soft cotton t-shirt available in multiple colors",
+        "rating": 4.0
+    },
+    {
+        "name": "Sporty Smartwatch",
+        "price": 150,
+        "category": "Electronics",
+        "description": "Track your workouts and heart rate",
+        "rating": 4.3
+    },
+    {
+        "name": "Yoga Mat",
+        "price": 40,
+        "category": "Fitness",
+        "description": "Non-slip yoga mat with comfortable cushioning",
+        "rating": 4.2
+    },
+    {
+        "name": "Wireless Earbuds",
+        "price": 80,
+        "category": "Electronics",
+        "description": "Noise-cancelling earbuds with great sound",
+        "rating": 4.6
+    },
+    {
+        "name": "Classic Denim Jeans",
+        "price": 60,
+        "category": "Apparel",
+        "description": "Stylish and comfortable jeans",
+        "rating": 4.1
+    },
+    {
+        "name": "Mountain Bike",
+        "price": 350,
+        "category": "Sports",
+        "description": "Lightweight bike for off-road adventures",
+        "rating": 4.8
+    },
+    {
+        "name": "Fitness Tracker Band",
+        "price": 50,
+        "category": "Fitness",
+        "description": "Track your daily activity and calories burned",
+        "rating": 4.0
+    },
+    {
+        "name": "Running Socks Pack",
+        "price": 15,
+        "category": "Footwear",
+        "description": "Breathable socks designed for runners",
+        "rating": 4.4
+    }
+]

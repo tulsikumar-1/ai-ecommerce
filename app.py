@@ -9,9 +9,9 @@ from pydantic import BaseModel, ValidationError
 # Load environment variables from .env file
 load_dotenv()
 
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY") or st.secrets["OPENAI_API_KEY"]
 if not OPENROUTER_API_KEY:
-    st.error("⚠️ OPENROUTER_API_KEY not found. Please set it in your .env file.")
+    st.error(" OPENROUTER_API_KEY not found. Please set it in your .env file.")
     st.stop()
 
 # --- Pydantic Model for validating LLM output ---
@@ -36,7 +36,7 @@ class OnlineLLM:
     def __init__(self, api_key: str):
         openai.api_base = "https://openrouter.ai/api/v1"
         openai.api_key = api_key
-        self.model = "deepseek/deepseek-r1:free"  # Your free tier model
+        self.model = "deepseek/deepseek-r1:free"  
 
     def generate_answer(self, question: str, retrieved_chunks: list[dict]) -> AnswerOutput:
         # Prepare context string from product list
@@ -59,7 +59,7 @@ class OnlineLLM:
                     max_tokens=300,
                 )
                 raw_text = response["choices"][0]["message"]["content"]
-                st.write("LLM raw response:", raw_text)
+                #st.write("LLM raw response:", raw_text)
 
                 # Extract JSON array from response
                 json_array_str = re.search(r"\[.*\]", raw_text, re.DOTALL).group(0)
@@ -99,7 +99,7 @@ def ai_smart_search(query, products):
     return matched_products
 
 # --- Streamlit UI ---
-st.title("🛍️ E-Commerce Product Catalog")
+st.title("E-Commerce Product Catalog")
 
 products = load_products()
 
